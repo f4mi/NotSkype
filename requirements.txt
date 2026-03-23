@@ -1,0 +1,15 @@
+# Core runtime
+hidapi
+sounddevice
+numpy
+Pillow
+
+# Optional – Telegram private calls
+# pyrogram
+# ntgcalls
+
+# Optional – Discord
+# discord.py[voice]
+
+# Optional – Control Center tray mode
+# pystray

@@ -1,0 +1,17 @@
+.claude/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+config.json
+*.session
+*.session-journal
+
+skypeui.log
+*.log
+recordings/
+results/
+captures/

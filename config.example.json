@@ -1,0 +1,65 @@
+{
+  "platform": "local",
+  "username": "your_username",
+  "telegram": {
+    "api_id": 12345678,
+    "api_hash": "0123456789abcdef0123456789abcdef",
+    "session_name": "skype_session",
+    "phone": ""
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "channels": 1,
+    "chunk_size": 960,
+    "meter_enabled": false,
+    "meter_interval_s": 10.0,
+    "meter_level": "debug"
+  },
+  "hid": {
+    "transport_mode": "dual",
+    "keepalive_interval": 1.6,
+    "q9_q10_delay": 0.2,
+    "call_connect_delay": 0.2,
+    "contacts_frame_delay_s": 0.05,
+    "contacts_contact_delay_s": 0.05,
+    "contacts_transport_mode": "feature_only"
+  },
+  "recording": {
+    "enabled": true,
+    "auto_record_calls": true,
+    "directory": "recordings"
+  },
+  "contacts": {
+    "order": "online_first",
+    "max_contacts": 100,
+    "cache_ttl_s": 15.0,
+    "fetch_timeout_s": 8.0,
+    "refresh_retries": 2,
+    "refresh_backoff_s": 0.35,
+    "background_refresh_s": 30.0,
+    "min_request_interval_s": 1.0,
+    "allow_stale_fallback": true,
+    "prefetch_on_connect": true,
+    "selected_only": false,
+    "selected_prioritize": false,
+    "force_selected_only": false,
+    "selected_contacts": [],
+    "phone_id_shim": true,
+    "phone_id_shim_prefix": "6",
+    "phone_id_shim_value": "6 345 432 236 543 457 4 222",
+    "detail_overrides": [],
+    "diagnostics": false,
+    "diagnostics_sample": 5,
+    "compat_resend": false,
+    "compat_page_size": 33,
+    "emergency_output_ack": true
+  },
+  "local": {
+    "call_me_on_start": false,
+    "call_me_delay_s": 3.0,
+    "auto_incoming_after_s": null,
+    "echo_gain": 0.5,
+    "contacts": []
+  },
+  "hidden_contacts": []
+}
